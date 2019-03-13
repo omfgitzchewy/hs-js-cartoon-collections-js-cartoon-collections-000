@@ -16,11 +16,10 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 function longPlaneteerCalls(words) {
-  var call = true
   for(var i = 0; i < words.length; i++){
     if (words[i].length <= 4){
-      return call;
-    } else (){
+      return true;
+    } else {
       return false;
     }
   }
