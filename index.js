@@ -19,9 +19,10 @@ function longPlaneteerCalls(words) {
   for(var i = 0; i < words.length; i++){
     if (words[i].length < 5){
       return false
+    } else (words[i].length > 4){
+      return true
     }
   }
-  return true
 }
 
 function findTheCheese (foods) {
