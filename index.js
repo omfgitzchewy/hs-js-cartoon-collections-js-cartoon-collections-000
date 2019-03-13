@@ -28,7 +28,7 @@ function findTheCheese (foods) {
   var cheese = ["cheddar", "gouda", "camembert"]
   for (var i = 0; i < foods.length; i++){
     var firstCheese = foods.indexOf(foods[i])
-    if (foods[i] == cheese){
+    if (foods[i] !== -1){
       return foods[i]
     }
   }
