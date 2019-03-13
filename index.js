@@ -30,7 +30,8 @@ function findTheCheese (foods) {
   for (var i = 0; i < foods.length; i++){
     if (cheese.indexOf(foods[i]) !== -1){
       found = foods[i]
+      return found
     }
   }
-  return found || "no cheese!"
+  return "no cheese!"
 }
