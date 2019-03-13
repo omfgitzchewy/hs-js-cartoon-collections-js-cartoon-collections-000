@@ -25,13 +25,17 @@ function longPlaneteerCalls(words) {
 }
 
 function findTheCheese (foods) {
-  var found;
+//  var found;
   var cheese = ["cheddar", "gouda", "camembert"]
-  for (var i = 0; i < foods.length; i++){
-    if (cheese.indexOf(foods[i]) !== -1){
-      found = foods[i]
-      return found
-    }
+//  for (var i = 0; i < foods.length; i++){
+//    if (cheese.indexOf(foods[i]) !== -1){
+//      found = foods[i]
+//      return found
+  var found = foods.find(function(element) {
+    return element == cheese;
+  });
+  }
+//    }
   }
   return "no cheese!"
 }
