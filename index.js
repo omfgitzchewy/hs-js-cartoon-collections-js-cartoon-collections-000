@@ -30,7 +30,7 @@ function findTheCheese (foods) {
     if (foods[i] == cheese){
       return foods[i]
     } else {
-      return null
+      return "no cheese!"
     }
   }
 }
