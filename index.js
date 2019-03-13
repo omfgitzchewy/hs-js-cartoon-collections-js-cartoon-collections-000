@@ -34,7 +34,7 @@ function findTheCheese (foods) {
   var found = foods.find(function(element) {
     return element == cheese;
   });
-  }
+//  }
 //    }
 //  }
   return "no cheese!"
