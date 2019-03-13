@@ -29,8 +29,7 @@ function findTheCheese (foods) {
   for (var i = 0; i < foods.length; i++){
     if (foods[i] == cheese){
       return foods[i]
-    } else {
-      return "no cheese!"
-    }
+    } else
   }
+  return "no cheese!"
 }
