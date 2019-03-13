@@ -17,11 +17,11 @@ function summonCaptainPlanet(planeteerCalls){
 
 function longPlaneteerCalls(words) {
   for(var i = 0; i < words.length; i++){
-    if (words[i].length > 4){
-      return true
+    if (words[i].length <= 4){
+      return false
     }
   }
-  return false
+  return true
 }
 
 function findTheCheese (foods) {
